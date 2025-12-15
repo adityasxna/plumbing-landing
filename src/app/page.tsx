@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const PHONE_NUMBER = "(555) 123-4567";
 
@@ -17,12 +18,14 @@ function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-blue-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
-              <Droplets className="w-6 h-6 text-white" />
+          <Link href="/" scroll={true}>
+            <div className="flex items-center gap-2">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                <Droplets className="w-6 h-6 text-white" />
+              </div>
+              <span className="text-xl font-bold text-slate-900">ProFlow<span className="text-blue-600">Plumbing</span></span>
             </div>
-            <span className="text-xl font-bold text-slate-900">ProFlow<span className="text-blue-600">Plumbing</span></span>
-          </div>
+          </Link>
 
           <nav className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">Services</a>
