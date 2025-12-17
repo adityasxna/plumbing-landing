@@ -9,7 +9,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-const PHONE_NUMBER = "(555) 123-4567";
+const PHONE_NUMBER = "+91 9992323232";
 
 function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -347,22 +347,22 @@ function WhyChooseUsSection() {
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    location: "Riverside",
+    name: "Seema Verma",
+    location: "Maida Mill",
     rating: 5,
     text: "Had a burst pipe emergency at 2 AM. They arrived within 30 minutes and had everything fixed by sunrise. Absolutely incredible service!",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
   },
   {
-    name: "Michael Chen",
-    location: "Oak Park",
+    name: "Ajeet Shrivastava",
+    location: "Char Imli",
     rating: 5,
     text: "Finally found a plumber I can trust. Fair prices, honest assessment, and quality work. They've been maintaining our home's plumbing for 3 years now.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
   },
   {
-    name: "Emily Rodriguez",
-    location: "Willow Creek",
+    name: "Reshma Khan",
+    location: "Peer Gate",
     rating: 5,
     text: "The team was professional, clean, and explained everything clearly. They installed our new water heater quickly and at a great price. Highly recommend!",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
@@ -473,7 +473,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <p className="text-slate-500 text-sm">Email Us</p>
-                  <p className="text-xl font-bold text-slate-900">info@proflowplumbing.com</p>
+                  <p className="text-xl font-bold text-slate-900">proflowplumbing@gmail.com</p>
                 </div>
               </div>
               
@@ -483,7 +483,7 @@ function ContactSection() {
                 </div>
                 <div>
                   <p className="text-slate-500 text-sm">Service Area</p>
-                  <p className="text-xl font-bold text-slate-900">Metro Area & Surrounding Communities</p>
+                  <p className="text-xl font-bold text-slate-900">Bhopal & Surrounding Areas</p>
                 </div>
               </div>
             </div>
@@ -646,10 +646,10 @@ function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Service Area</h3>
             <ul className="space-y-2 text-slate-400">
-              <li>Downtown Metro</li>
-              <li>Riverside</li>
-              <li>Oak Park</li>
-              <li>Willow Creek</li>
+              <li>Mata Mandir</li>
+              <li>Char Imli</li>
+              <li>Old City</li>
+              <li>Minaal Residency</li>
               <li>And surrounding areas</li>
             </ul>
           </div>
